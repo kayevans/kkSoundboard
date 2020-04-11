@@ -1,0 +1,43 @@
+.soundContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    // each button styles
+    button{
+        border: transparent;
+        font-family: $mainFont;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        background-color: $secondary;
+        padding: 38px 50px 20px;
+        border-radius: 10px;
+        line-height: 1.2;
+        font-size: 2rem;
+        box-shadow: $boxShadow;
+        margin: 0 10px 30px;
+        position: relative;
+        @include buttonHover;
+
+        // styles for the key 
+        .key{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: $accent;
+            padding: 2px 0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        // styles for when playing
+        &.playing{
+            transform: scale(1.1);
+            // cursor: normal;
+            // background-color: #fff;
+        }
+    }
+}

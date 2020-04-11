@@ -1,0 +1,33 @@
+
+//  centre the text and add spacing
+header{
+    text-align: center;
+    padding: 90px 0 80px;
+    
+    // add spacing and hcnage sizing
+    h1{
+        font-size: 7rem;
+        padding-bottom: 15px;
+    }
+
+    // instructions styles
+    p{
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+
+    // stop button styles
+    button{
+        background-color: $accent;
+        font-size: 1.8rem;
+        border: none;
+        color: white;
+        font-family: $mainFont;
+        padding: 10px 50px;
+        border-radius: 10px;
+        box-shadow: $boxShadow;
+        @include buttonHover;
+    }
+}
+
+

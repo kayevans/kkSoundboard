@@ -1,0 +1,21 @@
+// fonts
+$mainFont: 'Nunito', sans-serif;
+
+// colours
+$background: rgb(165, 209, 196);
+$secondary: rgb(109, 184, 160);
+$accent: rgb(24, 87, 67);
+
+// other
+$boxShadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+
+// mixins
+@mixin buttonHover {
+    transition: all 0.12s ease;
+    &:hover,
+    &:focus,
+    &:active{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+}

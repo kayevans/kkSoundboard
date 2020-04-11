@@ -1,0 +1,46 @@
+// remove basic padding and margin
+*,
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+// set base font
+html{
+    font-size: 62.5%;
+}
+
+// set image styles
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+// remove styles of lists
+ul{
+    list-style-type: none;
+}
+
+// wrapper styles
+.wrapper{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+// default styles of body
+body{
+    font-family: $mainFont;
+    background-image: url(../assets/background.png);
+    background-repeat: repeat;
+    background-size: contain;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    color: white;
+    // background-color: $background;
+}
+
+
+

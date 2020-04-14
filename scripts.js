@@ -10,6 +10,8 @@ const kkSoundboard = {
         item: new Audio('./assets/pickingUpItem.wav'),
         furniture: new Audio('./assets/placeFurniture.wav'),
         tool: new Audio('./assets/toolTransformation.wav'),
+        workBench: new Audio('./assets/craftingAtWorkBench.wav'),
+        rock: new Audio('./assets/hittingAMoneyRock.wav'),
     }
 };
 
